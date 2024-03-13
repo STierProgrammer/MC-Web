@@ -2,9 +2,9 @@
   "name": "mc-web",
   "version": "1.0.0",
   "description": "",
-  "main": "client/src/main.jsx",
+  "main": "index.js",
   "scripts": {
-    "start": "cd client && npm run dev",
+    "start": "node index.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
