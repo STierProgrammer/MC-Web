@@ -1,6 +1,5 @@
 {
   "name": "mc-web",
-<<<<<<< HEAD
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,14 +8,6 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-=======
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client"
->>>>>>> 3aec578083a27c8491a8e5aa85d2d03cfda92a3b
   },
   "dependencies": {
     "@react-three/cannon": "^6.6.0",
