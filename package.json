@@ -1,13 +1,11 @@
 {
   "name": "mc-web",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "node index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "@react-three/cannon": "^6.6.0",
